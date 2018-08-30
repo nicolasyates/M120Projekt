@@ -18,7 +18,6 @@ namespace M120Projekt.Data
         public String Name { get; set; }
         [Required]
         public DateTime Erinnerungsdatum { get; set; }
-        [Required]
         public ICollection<Aufgabe> Aufgabe { get; set; }
         #endregion
         #region Applikationsschicht
