@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:M120Projekt"
         mc:Ignorable="d"
+        SizeToContent="WidthAndHeight"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Border Padding="5">
+        <ScrollViewer x:Name="Main">
+
+        </ScrollViewer>
+    </Border>
+    
 </Window>
